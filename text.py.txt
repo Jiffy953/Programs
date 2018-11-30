@@ -1,0 +1,10 @@
+import random
+import os
+login = os.getlogin()
+
+num = input("How may kazoos would you like to add to your desktop?")
+for x in range(int(num)):
+    f = open(f"C:\\Users\\{login}\\Desktop\\brandnewkazoo{random.randint(0, 100)}.txt", "w+")
+    for i in range(100):
+        f.write("Kazoo for you \r\n")
+    f.close()
