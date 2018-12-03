@@ -1,3 +1,0 @@
-import os
-
-os.startfile('Recording.mp3') + os.startfile('Recording_1.mp3')
