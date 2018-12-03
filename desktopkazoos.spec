@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['desktopkazoos.py'],
-             pathex=['C:\\Users\\Jared\\Documents\\GitHub\\Programs'],
+             pathex=['C:\\Users\\Jared\\Documents\\Programs'],
              binaries=[],
              datas=[],
              hiddenimports=[],
